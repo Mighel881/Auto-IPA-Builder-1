@@ -11,7 +11,7 @@ Auto IPA Builder v$v
 
 Usage: build 'option'
 
-Help: 
+Help:
       build 'ipalist' - Shows the list of required IPAs and their names
       build 'optionslist' - Shows the list of options for the build command
 
@@ -58,10 +58,10 @@ function accuweatherpp {
 	unzip ../AccuWeather.ipa -d AccuWeather > /dev/null
 	cd "AccuWeather";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/AccuWeather.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/AccuWeather.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "AccuWeather.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
@@ -102,10 +102,10 @@ function animegtpp {
 	unzip ../AnimeGT.ipa -d AnimeGT > /dev/null
 	cd "AnimeGT";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/AnimeGT.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/AnimeGT.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "AnimeGT.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
@@ -146,10 +146,10 @@ function audiomackpp {
 	unzip ../Audiomack.ipa -d Audiomack > /dev/null
 	cd "Audiomack";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/Audiomack.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/Audiomack.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "Audiomack.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
@@ -190,9 +190,9 @@ function cercube {
 	unzip ../YouTube.ipa -d YouTube > /dev/null
 	cd "YouTube";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Tweaks/Cercube.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Tweaks/Cercube.zip"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	unzip Cercube.zip -d Tweak > /dev/null
 	unzip libloader.zip -d libloader > /dev/null
@@ -226,10 +226,10 @@ function cercubepp {
 	unzip ../YouTube.ipa -d YouTube > /dev/null
 	cd "YouTube";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Tweaks/CercubePP.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Tweaks/CercubePP.zip"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Tweaks/Cercube.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Tweaks/Cercube.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	unzip Cercube.zip -d Tweak > /dev/null
 	unzip CercubePP.zip -d Pass > /dev/null
@@ -267,10 +267,10 @@ function flopp {
 	unzip ../Flo.ipa -d Flo > /dev/null
 	cd "Flo";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/Flo.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/Flo.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "Flo.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
@@ -311,10 +311,10 @@ function twitchpp {
 	unzip ../Twitch.ipa -d Twitch > /dev/null
 	cd "Twitch";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/Twitch.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/Twitch.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "Twitch.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
@@ -355,10 +355,10 @@ function zinitevipp {
 	unzip ../ZiniTevi.ipa -d ZiniTevi > /dev/null
 	cd "ZiniTevi";
 	echo "Downloading Tweak"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/SarahH12099.github.io/master/repo/debs/ZiniTevi.deb"
+	curl -O "https://raw.githubusercontent.com/dlevi309/dlevi309.github.io/master/repo/debs/ZiniTevi.deb"
 	echo "Downloading Tweak Dependencies"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
-	curl -O "https://raw.githubusercontent.com/SarahH12099/Auto-IPA-Builder/master/Files/libloader.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/CydiaSubstrateFramework.zip"
+	curl -O "https://raw.githubusercontent.com/dlevi309/Auto-IPA-Builder/master/Files/libloader.zip"
 	echo "Extracting Tweak And Tweak Dependencies"
 	dpkg-deb -R "ZiniTevi.deb" Tweak > /dev/null
 	unzip CydiaSubstrateFramework.zip -d CydiaSubstrateFramework > /dev/null
